@@ -19,7 +19,7 @@ public class InventorySetup {
 
         System.out.println(type + " Room:");
         room.displayRoomDetails();
-        System.out.println("Available Rooms: " + inventory.getAvailability(type));
+        System.out.println("Available Rooms: " + inventory.getRoomAvailability().get(type));
         System.out.println();
     }
 }

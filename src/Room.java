@@ -1,4 +1,5 @@
 public abstract class Room {
+
     protected int numberOfBeds;
     protected int squareFeet;
     protected double pricePerNight;
@@ -11,7 +12,7 @@ public abstract class Room {
 
     public void displayRoomDetails() {
         System.out.println("Beds: " + numberOfBeds);
-        System.out.println("Room Size: " + squareFeet + " sq ft");
-        System.out.println("Price Per Night: ₹" + pricePerNight);
+        System.out.println("Size: " + squareFeet + " sqft");
+        System.out.println("Price per night: " + pricePerNight);
     }
 }
